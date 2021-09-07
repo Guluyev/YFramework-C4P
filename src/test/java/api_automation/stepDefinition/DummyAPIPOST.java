@@ -55,6 +55,9 @@ public class DummyAPIPOST extends TestBase{
 		String actualValue=JsonPath.read(response, "$.status");
 		scenario.write("Actual Value: "+actualValue +"   Expected Value: "+statusValue);
 		assertEquals(statusValue, actualValue);
+
 		
+
+
 	}
 }
